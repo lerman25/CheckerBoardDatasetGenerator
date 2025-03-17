@@ -33,6 +33,7 @@ Additional standard libraries: `argparse`, `csv`, `os`, and `random`.
 Install the non-standard packages using pip:
 ```bash
 pip install opencv-python numpy
+```
 Usage
 Run the script using the command line:
 
