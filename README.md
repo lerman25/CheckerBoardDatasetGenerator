@@ -56,7 +56,7 @@ Argument	Type	Default	Description
 --min_distance	float	800.0	Minimum translation along Z (closer board).
 --max_distance	float	1400.0	Maximum translation along Z (farther board).
 Example
-bash
+```bash
 Copy
 python generate_checkerboard.py \
     --num_images 50 \
@@ -72,7 +72,8 @@ python generate_checkerboard.py \
     --max_yaw 10 \
     --min_distance 500 \
     --max_distance 1200
-Output Files
+```
+## Output Files
 Images: Generated images are saved in the specified output directory (e.g., checkerboard_000.png, checkerboard_001.png, etc.).
 intrinsics.txt: A text file containing the intrinsic camera matrix.
 extrinsics.csv: A CSV file logging the following for each image:
@@ -96,8 +97,5 @@ Warps the chessboard image using the provided homography and composites it onto 
 main(args)
 Parses command-line arguments, generates multiple images with random extrinsic parameters, saves each image, and writes the intrinsic and extrinsic parameters to their respective files.
 
-Contributing
+## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests with improvements, additional features, or bug fixes.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
