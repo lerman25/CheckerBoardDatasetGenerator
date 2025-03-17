@@ -37,8 +37,8 @@ pip install opencv-python numpy
 Usage
 Run the script using the command line:
 
-bash
-Copy
+```bash
+
 python generate_checkerboard.py [options]
 Command-Line Arguments
 Argument	Type	Default	Description
@@ -55,9 +55,10 @@ Argument	Type	Default	Description
 --max_yaw	float	5.0	Maximum yaw angle (degrees).
 --min_distance	float	800.0	Minimum translation along Z (closer board).
 --max_distance	float	1400.0	Maximum translation along Z (farther board).
+```
 Example
 ```bash
-Copy
+
 python generate_checkerboard.py \
     --num_images 50 \
     --output_dir my_chessboards \
